@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,32 @@
     <title>Drag and drop list</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/010679bc69.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 
+    <div class="wrapper">
+        <h1>Choose three <i class="fa-solid fa-gift"></i></h1>
+        <div class="box presents-box">
+            <p class="present" draggable="true"><i class="fa-solid fa-basketball"></i></p>
+            <p class="present" draggable="true"><i class="fa-solid fa-pizza-slice"></i></p>
+            <p class="present" draggable="true"><i class="fa-solid fa-burger"></i></p>
+            <p class="present" draggable="true"><i class="fa-solid fa-apple-whole"></i></p>
+            <p class="present" draggable="true"><i class="fa-solid fa-car"></i></p>
+            <p class="present" draggable="true"><i class="fa-solid fa-computer"></i></p>
+        </div>
+
+        <div class="box chosen-box"></div>
+
+
+
+        <a href="">
+            <button class="send-btn" disabled>Send</button>
+        </a>
+    </div>
     <script src="script.js"></script>
 </body>
 
